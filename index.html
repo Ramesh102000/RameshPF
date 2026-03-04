@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramesh K Gurav | Data Analyst</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-logo">&lt;RKG/&gt;</div>
+    <div class="nav-links">
+      <button class="nav-btn active" data-section="home">Home</button>
+      <button class="nav-btn" data-section="projects">Projects</button>
+      <button class="nav-btn" data-section="certificates">Certificates</button>
+      <button class="nav-btn" data-section="skills">Skills</button>
+      <button class="nav-btn" data-section="profile">Profile</button>
+      <a href="https://www.linkedin.com/in/ramesh-k-gurav" target="_blank" rel="noopener noreferrer" class="nav-linkedin" title="LinkedIn Profile">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+      </a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+  <section id="home" class="section hero-section">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow glow-teal"></div>
+    <div class="hero-glow glow-purple"></div>
+
+    <div class="hero-content">
+      <div class="hero-location">// Bengaluru, India</div>
+      <h1 class="hero-name">RAMESH K<br><span class="name-outline">GURAV</span></h1>
+      <div class="hero-typewriter"><span id="typed-text"></span><span class="cursor">|</span></div>
+      <p class="hero-desc">1.5+ years transforming raw data into revenue-driving insights. Expert in Power BI, Tableau, SQL & Python — building dashboards that make decisions easy.</p>
+
+      <!-- Tool Icons -->
+      <div class="hero-tools">
+        <div class="tool-item" title="Excel">
+          <svg viewBox="0 0 40 40" width="36" height="36"><rect width="40" height="40" rx="7" fill="#1D6F42"/><text x="3" y="28" font-size="13" fill="#fff" font-weight="900" font-family="Arial,sans-serif">XLS</text></svg>
+          <span>Excel</span>
+        </div>
+        <div class="tool-item" title="Power BI">
+          <svg viewBox="0 0 40 40" width="36" height="36"><rect width="40" height="40" rx="7" fill="#F2C811"/><rect x="7" y="26" width="5" height="8" rx="1.5" fill="#1a1a1a"/><rect x="14" y="20" width="5" height="14" rx="1.5" fill="#1a1a1a"/><rect x="21" y="14" width="5" height="20" rx="1.5" fill="#1a1a1a"/><rect x="28" y="8" width="5" height="26" rx="1.5" fill="#1a1a1a"/></svg>
+          <span>Power BI</span>
+        </div>
+        <div class="tool-item" title="Tableau">
+          <svg viewBox="0 0 40 40" width="36" height="36"><rect width="40" height="40" rx="7" fill="#1F4E79"/><rect x="18" y="5" width="4" height="10" rx="2" fill="#E8762D"/><rect x="18" y="25" width="4" height="10" rx="2" fill="#E8762D"/><rect x="5" y="18" width="10" height="4" rx="2" fill="#E8762D"/><rect x="25" y="18" width="10" height="4" rx="2" fill="#E8762D"/><rect x="11" y="11" width="4" height="8" rx="2" fill="#fff" fill-opacity="0.7"/><rect x="25" y="11" width="4" height="8" rx="2" fill="#fff" fill-opacity="0.7"/><rect x="11" y="21" width="4" height="8" rx="2" fill="#fff" fill-opacity="0.7"/><rect x="25" y="21" width="4" height="8" rx="2" fill="#fff" fill-opacity="0.7"/></svg>
+          <span>Tableau</span>
+        </div>
+        <div class="tool-item" title="MySQL">
+          <svg viewBox="0 0 40 40" width="36" height="36"><rect width="40" height="40" rx="7" fill="#00618A"/><ellipse cx="20" cy="12" rx="10" ry="4" fill="#F29111"/><path d="M10 12v6c0 2.2 4.5 4 10 4s10-1.8 10-4v-6" stroke="#F29111" stroke-width="1.5" fill="none"/><path d="M10 18v6c0 2.2 4.5 4 10 4s10-1.8 10-4v-6" stroke="#F29111" stroke-width="1.5" fill="none"/></svg>
+          <span>MySQL</span>
+        </div>
+        <div class="tool-item" title="Python">
+          <svg viewBox="0 0 40 40" width="36" height="36"><rect width="40" height="40" rx="7" fill="#3776AB"/><path d="M20 6c-6 0-8 2.5-8 6v3h8v2H12c-3.5 0-6 2-6 7s2.5 7 6 7h2v-4c0-3.5 2.5-5 6-5s6 1.5 6 5v4h2c3.5 0 6-2 6-7s-2.5-7-6-7h-8v-2h8v-3c0-3.5-2-6-8-6z" fill="#fff" fill-opacity="0.9"/><circle cx="16" cy="11" r="1.5" fill="#FFD43B"/><circle cx="24" cy="29" r="1.5" fill="#FFD43B"/></svg>
+          <span>Python</span>
+        </div>
+        <div class="tool-item" title="SQL">
+          <svg viewBox="0 0 40 40" width="36" height="36"><rect width="40" height="40" rx="7" fill="#336791"/><ellipse cx="20" cy="11" rx="10" ry="3.5" fill="#fff" fill-opacity="0.8"/><path d="M10 11v6c0 1.9 4.5 3.5 10 3.5S30 18.9 30 17v-6" stroke="#fff" stroke-width="1.5" fill="none"/><path d="M10 17v6c0 1.9 4.5 3.5 10 3.5S30 24.9 30 23v-6" stroke="#fff" stroke-width="1.5" fill="none"/><path d="M10 23v4c0 1.9 4.5 3.5 10 3.5S30 28.9 30 27v-4" stroke="#fff" stroke-width="1.5" fill="none" fill-opacity="0.6"/></svg>
+          <span>SQL</span>
+        </div>
+        <div class="tool-item" title="Google Sheets">
+          <svg viewBox="0 0 40 40" width="36" height="36"><rect width="40" height="40" rx="7" fill="#0F9D58"/><rect x="9" y="11" width="22" height="18" rx="2" stroke="#fff" stroke-width="1.5" fill="none"/><line x1="9" y1="17" x2="31" y2="17" stroke="#fff" stroke-width="1.5"/><line x1="9" y1="23" x2="31" y2="23" stroke="#fff" stroke-width="1.5"/><line x1="19" y1="11" x2="19" y2="29" stroke="#fff" stroke-width="1.5"/></svg>
+          <span>Sheets</span>
+        </div>
+        <div class="tool-item" title="DAX">
+          <svg viewBox="0 0 40 40" width="36" height="36"><rect width="40" height="40" rx="7" fill="#F2C811"/><text x="5" y="27" font-size="14" fill="#1a1a1a" font-weight="900" font-family="monospace">DAX</text></svg>
+          <span>DAX</span>
+        </div>
+      </div>
+
+      <!-- Contact Row -->
+      <div class="hero-contacts">
+        <span class="contact-pill">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#00f5c4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          rameshkgurav2000@gmail.com
+        </span>
+        <span class="contact-pill">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#00f5c4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.95 10.5 19.79 19.79 0 01.88 1.86 2 2 0 012.86 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          +91 6362491907
+        </span>
+        <a href="https://www.linkedin.com/in/ramesh-k-gurav" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          linkedin.com/in/ramesh-k-gurav
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="brace">{</span>
+        <h2>PROJECTS</h2>
+        <div class="header-line"></div>
+        <span class="brace">}</span>
+      </div>
+
+      <div class="projects-list">
+
+        <div class="project-card reveal" data-color="#00f5c4">
+          <div class="project-top">
+            <div class="project-info">
+              <h3 class="project-title">Insurance Analysis</h3>
+              <p class="project-meta">Data Analytics Intern · Ai Variant &nbsp;·&nbsp; Jul – Sep 2023</p>
+            </div>
+            <div class="project-tools">
+              <svg viewBox="0 0 40 40" width="30" height="30" title="Power BI"><rect width="40" height="40" rx="7" fill="#F2C811"/><rect x="7" y="26" width="5" height="8" rx="1.5" fill="#1a1a1a"/><rect x="14" y="20" width="5" height="14" rx="1.5" fill="#1a1a1a"/><rect x="21" y="14" width="5" height="20" rx="1.5" fill="#1a1a1a"/><rect x="28" y="8" width="5" height="26" rx="1.5" fill="#1a1a1a"/></svg>
+              <svg viewBox="0 0 40 40" width="30" height="30" title="DAX"><rect width="40" height="40" rx="7" fill="#F2C811"/><text x="5" y="27" font-size="14" fill="#1a1a1a" font-weight="900" font-family="monospace">DAX</text></svg>
+              <svg viewBox="0 0 40 40" width="30" height="30" title="Excel"><rect width="40" height="40" rx="7" fill="#1D6F42"/><text x="3" y="28" font-size="13" fill="#fff" font-weight="900" font-family="Arial,sans-serif">XLS</text></svg>
+              <svg viewBox="0 0 40 40" width="30" height="30" title="MySQL"><rect width="40" height="40" rx="7" fill="#00618A"/><ellipse cx="20" cy="12" rx="10" ry="4" fill="#F29111"/><path d="M10 12v6c0 2.2 4.5 4 10 4s10-1.8 10-4v-6" stroke="#F29111" stroke-width="1.5" fill="none"/><path d="M10 18v6c0 2.2 4.5 4 10 4s10-1.8 10-4v-6" stroke="#F29111" stroke-width="1.5" fill="none"/></svg>
+            </div>
+          </div>
+          <ul class="project-bullets">
+            <li>Mapped Account Executive productivity to premium revenue for sales pipeline evaluation</li>
+            <li>Built rule-based analytics & parameterized Power BI dashboards with DAX for lead segmentation</li>
+            <li>Automated cross-sell variance reporting → 30% improvement in sales efficiency</li>
+          </ul>
+        </div>
+
+        <div class="project-card reveal" data-color="#f5a623">
+          <div class="project-top">
+            <div class="project-info">
+              <h3 class="project-title">Supply Chain Management Analysis</h3>
+              <p class="project-meta">Data Analytics Intern · Ai Variant &nbsp;·&nbsp; Apr – Jun 2023</p>
+            </div>
+            <div class="project-tools">
+              <svg viewBox="0 0 40 40" width="30" height="30" title="Excel"><rect width="40" height="40" rx="7" fill="#1D6F42"/><text x="3" y="28" font-size="13" fill="#fff" font-weight="900" font-family="Arial,sans-serif">XLS</text></svg>
+              <svg viewBox="0 0 40 40" width="30" height="30" title="Power BI"><rect width="40" height="40" rx="7" fill="#F2C811"/><rect x="7" y="26" width="5" height="8" rx="1.5" fill="#1a1a1a"/><rect x="14" y="20" width="5" height="14" rx="1.5" fill="#1a1a1a"/><rect x="21" y="14" width="5" height="20" rx="1.5" fill="#1a1a1a"/><rect x="28" y="8" width="5" height="26" rx="1.5" fill="#1a1a1a"/></svg>
+              <svg viewBox="0 0 40 40" width="30" height="30" title="Tableau"><rect width="40" height="40" rx="7" fill="#1F4E79"/><rect x="18" y="5" width="4" height="10" rx="2" fill="#E8762D"/><rect x="18" y="25" width="4" height="10" rx="2" fill="#E8762D"/><rect x="5" y="18" width="10" height="4" rx="2" fill="#E8762D"/><rect x="25" y="18" width="10" height="4" rx="2" fill="#E8762D"/></svg>
+              <svg viewBox="0 0 40 40" width="30" height="30" title="MySQL"><rect width="40" height="40" rx="7" fill="#00618A"/><ellipse cx="20" cy="12" rx="10" ry="4" fill="#F29111"/><path d="M10 12v6c0 2.2 4.5 4 10 4s10-1.8 10-4v-6" stroke="#F29111" stroke-width="1.5" fill="none"/><path d="M10 18v6c0 2.2 4.5 4 10 4s10-1.8 10-4v-6" stroke="#F29111" stroke-width="1.5" fill="none"/></svg>
+            </div>
+          </div>
+          <ul class="project-bullets">
+            <li>Designed KPI frameworks integrating multi-table datasets for operational bottleneck tracking</li>
+            <li>Increased actionable insights by 25% through structured data transformation strategy</li>
+            <li>Delivered client-facing BI solutions via Excel, Power BI, Tableau & MySQL quality checks</li>
+          </ul>
+        </div>
+
+        <div class="project-card reveal" data-color="#c471f5">
+          <div class="project-top">
+            <div class="project-info">
+              <h3 class="project-title">Sales Performance Automation</h3>
+              <p class="project-meta">Data Management Assistant · Maruti Flex Traders &nbsp;·&nbsp; Oct 2023 – Jun 2024</p>
+            </div>
+            <div class="project-tools">
+              <svg viewBox="0 0 40 40" width="30" height="30" title="Visual Studio"><rect width="40" height="40" rx="7" fill="#5C2D91"/><path d="M30 8L17 20 12 16 8 18v10l4 2.5 5-4 13 11V8z" fill="#fff" fill-opacity="0.85"/></svg>
+              <svg viewBox="0 0 40 40" width="30" height="30" title="SQL"><rect width="40" height="40" rx="7" fill="#336791"/><ellipse cx="20" cy="11" rx="10" ry="3.5" fill="#fff" fill-opacity="0.8"/><path d="M10 11v6c0 1.9 4.5 3.5 10 3.5S30 18.9 30 17v-6" stroke="#fff" stroke-width="1.5" fill="none"/><path d="M10 17v6c0 1.9 4.5 3.5 10 3.5S30 24.9 30 23v-6" stroke="#fff" stroke-width="1.5" fill="none"/></svg>
+              <svg viewBox="0 0 40 40" width="30" height="30" title="DAX"><rect width="40" height="40" rx="7" fill="#F2C811"/><text x="5" y="27" font-size="14" fill="#1a1a1a" font-weight="900" font-family="monospace">DAX</text></svg>
+              <svg viewBox="0 0 40 40" width="30" height="30" title="Power BI"><rect width="40" height="40" rx="7" fill="#F2C811"/><rect x="7" y="26" width="5" height="8" rx="1.5" fill="#1a1a1a"/><rect x="14" y="20" width="5" height="14" rx="1.5" fill="#1a1a1a"/><rect x="21" y="14" width="5" height="20" rx="1.5" fill="#1a1a1a"/><rect x="28" y="8" width="5" height="26" rx="1.5" fill="#1a1a1a"/></svg>
+            </div>
+          </div>
+          <ul class="project-bullets">
+            <li>Automated Sales Executive performance metrics → 15% company revenue growth</li>
+            <li>Built Dispatch Management System UI in Visual Studio → 50% performance increase</li>
+            <li>Created live API-powered assessment dashboard with real-time operational insights</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ CERTIFICATES ═══════════════════════════ -->
+  <section id="certificates" class="section">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="brace">{</span>
+        <h2>CERTIFICATES</h2>
+        <div class="header-line"></div>
+        <span class="brace">}</span>
+      </div>
+      <div class="certs-list">
+        <div class="cert-card reveal" data-color="#00f5c4">
+          <span class="cert-emoji">📊</span>
+          <div class="cert-info">
+            <div class="cert-name">Data Analyst Course</div>
+            <div class="cert-org">ExcelR</div>
+          </div>
+          <div class="cert-period">Mar – Sep 2023</div>
+        </div>
+        <div class="cert-card reveal" data-color="#f5a623">
+          <span class="cert-emoji">📈</span>
+          <div class="cert-info">
+            <div class="cert-name">Data Visualization</div>
+            <div class="cert-org">IBM</div>
+          </div>
+          <div class="cert-period">Jul 2023</div>
+        </div>
+        <div class="cert-card reveal" data-color="#c471f5">
+          <span class="cert-emoji">🛢️</span>
+          <div class="cert-info">
+            <div class="cert-name">SQL Certification</div>
+            <div class="cert-org">HackerRank</div>
+          </div>
+          <div class="cert-period">Jul – Nov 2024</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ SKILLS ═══════════════════════════ -->
+  <section id="skills" class="section">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="brace">{</span>
+        <h2>SKILLS</h2>
+        <div class="header-line"></div>
+        <span class="brace">}</span>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal" data-color="#00f5c4">
+          <div class="skill-category">Data Analytics & Reporting</div>
+          <div class="skill-tags">
+            <span class="skill-tag has-icon">
+              <svg viewBox="0 0 40 40" width="16" height="16"><rect width="40" height="40" rx="5" fill="#1D6F42"/><text x="3" y="27" font-size="12" fill="#fff" font-weight="900" font-family="Arial,sans-serif">XLS</text></svg>
+              Excel
+            </span>
+            <span class="skill-tag has-icon">
+              <svg viewBox="0 0 40 40" width="16" height="16"><rect width="40" height="40" rx="5" fill="#742774"/><text x="3" y="24" font-size="9" fill="#fff" font-weight="900" font-family="Arial">PQRY</text></svg>
+              Power Query
+            </span>
+            <span class="skill-tag">PivotTables</span>
+            <span class="skill-tag has-icon">
+              <svg viewBox="0 0 40 40" width="16" height="16"><rect width="40" height="40" rx="5" fill="#0F9D58"/><rect x="9" y="11" width="22" height="18" rx="2" stroke="#fff" stroke-width="1.5" fill="none"/><line x1="9" y1="17" x2="31" y2="17" stroke="#fff" stroke-width="1.5"/><line x1="19" y1="11" x2="19" y2="29" stroke="#fff" stroke-width="1.5"/></svg>
+              Google Sheets
+            </span>
+            <span class="skill-tag">Macros</span>
+            <span class="skill-tag">Vlookup</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" data-color="#f5a623">
+          <div class="skill-category">Business Intelligence</div>
+          <div class="skill-tags">
+            <span class="skill-tag has-icon">
+              <svg viewBox="0 0 40 40" width="16" height="16"><rect width="40" height="40" rx="5" fill="#F2C811"/><rect x="7" y="26" width="4" height="8" rx="1" fill="#1a1a1a"/><rect x="13" y="20" width="4" height="14" rx="1" fill="#1a1a1a"/><rect x="19" y="14" width="4" height="20" rx="1" fill="#1a1a1a"/><rect x="25" y="8" width="4" height="26" rx="1" fill="#1a1a1a"/></svg>
+              Power BI
+            </span>
+            <span class="skill-tag has-icon">
+              <svg viewBox="0 0 40 40" width="16" height="16"><rect width="40" height="40" rx="5" fill="#1F4E79"/><rect x="18" y="5" width="4" height="9" rx="2" fill="#E8762D"/><rect x="18" y="26" width="4" height="9" rx="2" fill="#E8762D"/><rect x="5" y="18" width="9" height="4" rx="2" fill="#E8762D"/><rect x="26" y="18" width="9" height="4" rx="2" fill="#E8762D"/></svg>
+              Tableau
+            </span>
+            <span class="skill-tag has-icon">
+              <svg viewBox="0 0 40 40" width="16" height="16"><rect width="40" height="40" rx="5" fill="#F2C811"/><text x="4" y="27" font-size="12" fill="#1a1a1a" font-weight="900" font-family="monospace">DAX</text></svg>
+              DAX
+            </span>
+            <span class="skill-tag has-icon">
+              <svg viewBox="0 0 40 40" width="16" height="16"><rect width="40" height="40" rx="5" fill="#5C2D91"/><path d="M30 8L17 20 12 16 8 18v10l4 2.5 5-4 13 11V8z" fill="#fff" fill-opacity="0.85"/></svg>
+              Visual Studio
+            </span>
+            <span class="skill-tag">Data Storytelling</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" data-color="#c471f5">
+          <div class="skill-category">Database Management</div>
+          <div class="skill-tags">
+            <span class="skill-tag has-icon">
+              <svg viewBox="0 0 40 40" width="16" height="16"><rect width="40" height="40" rx="5" fill="#00618A"/><ellipse cx="20" cy="12" rx="10" ry="4" fill="#F29111"/><path d="M10 12v6c0 2.2 4.5 4 10 4s10-1.8 10-4v-6" stroke="#F29111" stroke-width="1.5" fill="none"/></svg>
+              MySQL
+            </span>
+            <span class="skill-tag has-icon">
+              <svg viewBox="0 0 40 40" width="16" height="16"><rect width="40" height="40" rx="5" fill="#336791"/><ellipse cx="20" cy="11" rx="10" ry="3.5" fill="#fff" fill-opacity="0.8"/><path d="M10 11v6c0 1.9 4.5 3.5 10 3.5S30 18.9 30 17v-6" stroke="#fff" stroke-width="1.5" fill="none"/></svg>
+              SQL
+            </span>
+            <span class="skill-tag">Query Optimization</span>
+            <span class="skill-tag">Data Extraction</span>
+            <span class="skill-tag">Aggregations</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" data-color="#4facfe">
+          <div class="skill-category">Other Skills</div>
+          <div class="skill-tags">
+            <span class="skill-tag has-icon">
+              <svg viewBox="0 0 40 40" width="16" height="16"><rect width="40" height="40" rx="5" fill="#3776AB"/><text x="6" y="27" font-size="12" fill="#FFD43B" font-weight="900" font-family="Arial">PY</text></svg>
+              Python
+            </span>
+            <span class="skill-tag has-icon">
+              <svg viewBox="0 0 40 40" width="16" height="16"><rect width="40" height="40" rx="5" fill="#0052CC"/><path d="M20 8a12 12 0 110 24A12 12 0 0120 8z" stroke="#fff" stroke-width="1.8" fill="none"/><path d="M20 14v7l4 2.5" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg>
+              Agile & Scrum
+            </span>
+            <span class="skill-tag">Data Modeling</span>
+            <span class="skill-tag">Data Mining</span>
+            <span class="skill-tag">Data Cleaning</span>
+            <span class="skill-tag">Data Validation</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ PROFILE ═══════════════════════════ -->
+  <section id="profile" class="section">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="brace">{</span>
+        <h2>PROFILE</h2>
+        <div class="header-line"></div>
+        <span class="brace">}</span>
+      </div>
+      <div class="profile-grid">
+        <div class="profile-left reveal">
+          <div class="profile-avatar-row">
+            <div class="profile-avatar">RG</div>
+            <div>
+              <div class="profile-name">Ramesh K Gurav</div>
+              <div class="profile-role">Data Analyst & BI Developer</div>
+              <a href="https://www.linkedin.com/in/ramesh-k-gurav" target="_blank" rel="noopener noreferrer" class="linkedin-btn linkedin-btn-sm">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                LinkedIn
+              </a>
+            </div>
+          </div>
+          <p class="profile-bio">B.Sc. in Physics, Chemistry & Mathematics from Bengaluru City University. Passionate about translating complex datasets into clean, decision-ready visuals. Fluent in English, Kannada & Hindi.</p>
+          <div class="profile-contacts">
+            <div class="profile-contact-row">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#00f5c4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span class="contact-label">Location</span>
+              <span class="contact-val">Bengaluru, India</span>
+            </div>
+            <div class="profile-contact-row">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#00f5c4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.95 10.5 19.79 19.79 0 01.88 1.86 2 2 0 012.86 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              <span class="contact-label">Phone</span>
+              <span class="contact-val">+91 6362491907</span>
+            </div>
+            <div class="profile-contact-row">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#00f5c4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span class="contact-label">Email</span>
+              <span class="contact-val">rameshkgurav2000@gmail.com</span>
+            </div>
+            <div class="profile-contact-row">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="#4facfe"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/ramesh-k-gurav" target="_blank" rel="noopener noreferrer" class="contact-link">linkedin.com/in/ramesh-k-gurav</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-right">
+          <div class="stats-grid">
+            <div class="stat-card reveal"><div class="stat-val">1.5+</div><div class="stat-label">Years Exp.</div></div>
+            <div class="stat-card reveal"><div class="stat-val">10+</div><div class="stat-label">Tools Mastered</div></div>
+            <div class="stat-card reveal"><div class="stat-val">15%</div><div class="stat-label">Sales Growth</div></div>
+            <div class="stat-card reveal"><div class="stat-val">50%</div><div class="stat-label">Perf. Boost</div></div>
+          </div>
+          <div class="lang-card reveal">
+            <div class="lang-label">LANGUAGES</div>
+            <div class="lang-tags">
+              <span class="lang-tag">English</span>
+              <span class="lang-tag">Kannada</span>
+              <span class="lang-tag">Hindi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+  <footer>
+    <span>© 2025 Ramesh K Gurav · Built with passion for data</span>
+    <a href="https://www.linkedin.com/in/ramesh-k-gurav" target="_blank" rel="noopener noreferrer" class="footer-linkedin">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      Connect on LinkedIn
+    </a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
